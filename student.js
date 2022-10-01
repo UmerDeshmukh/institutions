@@ -22,7 +22,7 @@ function instituteDialogAlert(executionContext)
     if (instituteNameLogicalName == null)
     {
 
-        var alertStrings = {confirmButtonLabel: "OK",text: "Mention the Institute you are in",title: "Institute Name Alert"};
+        var alertStrings = {confirmButtonLabel: "OK",text: "Mention the Institute name ",title: "Institute Name Alert"};
         var alertOptions = {height: 120,width: 360};
 
         Xrm.Navigation.openAlertDialog(alertStrings, alertOptions).then(
